@@ -1,0 +1,58 @@
+body {
+    background: #a0dad2;
+  }
+  
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+  .grid {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #ed6a5a;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+    /*border:1px black solid;
+  box-sizing:border-box*/
+  }
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+  
+  .snake {
+    background: #ed6a5a;
+    border-radius: 20%;
+  }
+  
+  .apple {
+    background: #f4f1bb;
+    border-radius: 20px;
+  }
+  
+  .popup {
+    background: #ed6a5a;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35%;
+  }
+
+.scoreDisplay {
+    display: flex;
+    justify-content: center;
+}
